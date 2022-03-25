@@ -1,0 +1,28 @@
+{
+   "totalRevenue":50000,
+   "periods":[
+      {
+         "period":"2020-01-01",
+         "revenueForPeriod":25000,
+         "apps":[
+            {
+               "id":234,
+               "revenueForApp":15000
+            },
+            ... more data
+         ]
+      },
+      {
+         "period":"2020-02-01",
+         "revenueForPeriod":10000,
+         "apps":[
+            {
+               "id":234,
+               "revenueForApp":5000
+            }
+         ]
+
+      },
+      ... more data
+   ]
+}
