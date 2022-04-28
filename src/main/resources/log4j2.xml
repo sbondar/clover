@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN"  monitorInterval="30">
+
+    <Properties>
+        <Property name="INFO_PATTERN">%d{yyyy-MM-dd HH:mm:ss,SSS} %level %-20.20t [%-32C{1}]: %m%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${INFO_PATTERN}"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="info">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
